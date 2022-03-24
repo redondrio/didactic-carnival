@@ -1,6 +1,6 @@
 
 Alias for creating new branch and checkout to it automatically
-
+# This will appear as a suggested change
 In your bashrc
 
 newbranch() {
