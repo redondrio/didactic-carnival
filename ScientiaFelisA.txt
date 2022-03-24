@@ -1,0 +1,11 @@
+
+Alias for creating new branch and checkout to it automatically
+
+In your bashrc
+
+newbranch() {
+if [ -z $1 ]
+	then echo "add branch name"
+else
+	git checkout -b $1 master
+fi
